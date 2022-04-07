@@ -1,0 +1,3 @@
+textarea::placeholder {
+  font-style: italic;
+}

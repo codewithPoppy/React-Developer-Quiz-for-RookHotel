@@ -1,0 +1,13 @@
+### The Answer for Quiz 1
+    const output = (num: number): string => {
+      let resString: string = '';
+      if(num % 2 === 0)
+        resString = 'candy';
+      if(num % 11 === 0)
+        resString += 'bar';
+      if(resString === '')
+        resString = num.toString();
+      return resString;
+    }
+
+    console.log(output(22))
